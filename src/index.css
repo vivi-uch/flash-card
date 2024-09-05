@@ -38,3 +38,32 @@ body {
 .selected p {
   transform: rotateY(180deg);
 }
+
+@media screen and (max-width: 900px) {
+  .body {
+    font-size: 20px;
+  }
+  .flashcard {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .flashcard-div {
+    padding: 3rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .body {
+    font-size: 10px;
+  }
+  .flashcard {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    justify-content: center;
+    align-items: center;
+  }
+  .flashcard-div {
+    padding: 2rem;
+  }
+}
