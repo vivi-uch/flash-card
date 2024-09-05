@@ -47,7 +47,8 @@ body {
     display: grid;
     grid-template-columns: 1fr 1fr;
   }
-  .flashcard-div {
+  .flashcard-div,
+  .selected {
     padding: 3rem;
   }
 }
@@ -63,7 +64,8 @@ body {
     justify-content: center;
     align-items: center;
   }
-  .flashcard-div {
+  .flashcard-div,
+  .selected {
     padding: 2rem;
   }
 }
